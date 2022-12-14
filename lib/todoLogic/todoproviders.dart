@@ -11,7 +11,7 @@ class TodoNotifier extends StateNotifier<List<TodoModel>> {
   TodoNotifier()
       : super([
           TodoModel(
-              title: "This is a todo app mae with riverpod",
+              title: "This is a todo app made with riverpod",
               isCompleted: false,
               id: "1"),
           TodoModel(
